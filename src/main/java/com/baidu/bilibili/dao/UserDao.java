@@ -9,5 +9,6 @@ import java.util.List;
 @Repository
 @Mapper
 public interface UserDao {
+
     List<User> login(String phone,String password);
 }
